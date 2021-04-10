@@ -36,7 +36,8 @@ student.contact = new Contact(
         alternativePhone : student.guardian.contact.phone,
         address: student.guardian.contact.address
     })
-// console.log(student);
+
+
 /*
  Department Id
  */
@@ -121,8 +122,6 @@ department.addTeacher(teacher2);
 //     console.log(`${index + 1} . ${teacher.name} (${teacher.student.name})`)
 // });
 // console.log(dean);
-// console.log(teacher1);
-// console.log(teacher2);
 // console.log(dean.department);
 guardian.addchild(student);
 // console.log(guardian);
